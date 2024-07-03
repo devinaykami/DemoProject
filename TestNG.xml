@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="DemoTestsSuite">
+	<listeners>
+		
+		<listener class-name="com.test.utilities.RetryListener" />
+		
+		<listener class-name="io.qameta.allure.testng.AllureTestNg" />
+	</listeners>
+	<test name="DemoTests">
+		<classes>
+
+			<class name="com.test.test_scenarios.TestScenario1" />
+			<class name="com.test.test_scenarios.TestScenario2" />
+			<!-- All methods in the class will be retried as per
+				RetryAnalyzer -->
+		</classes>
+	</test>
+</suite>

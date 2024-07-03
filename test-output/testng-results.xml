@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="20" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-03T10:51:45 IST" name="DemoTestsSuite" finished-at="2024-07-03T10:52:49 IST" duration-ms="64542">
+    <groups>
+    </groups>
+    <test started-at="2024-07-03T10:51:45 IST" name="DemoTests" finished-at="2024-07-03T10:52:49 IST" duration-ms="64542">
+      <class name="com.test.test_scenarios.TestScenario2">
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.test.test_scenarios.TestScenario2@20f5281c]" started-at="2024-07-03T10:52:20 IST" name="setUpMethod" finished-at="2024-07-03T10:52:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setup_2()[pri:0, instance:com.test.test_scenarios.TestScenario2@20f5281c]" started-at="2024-07-03T10:52:20 IST" name="setup_2" finished-at="2024-07-03T10:52:20 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_2 -->
+        <test-method signature="validateDatePicker()[pri:0, instance:com.test.test_scenarios.TestScenario2@20f5281c]" started-at="2024-07-03T10:52:20 IST" name="validateDatePicker" description="Validate date picker" finished-at="2024-07-03T10:52:38 IST" duration-ms="18177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDatePicker -->
+        <test-method signature="validateFileUpload()[pri:0, instance:com.test.test_scenarios.TestScenario2@20f5281c]" started-at="2024-07-03T10:52:38 IST" name="validateFileUpload" description="Validate file upload" finished-at="2024-07-03T10:52:46 IST" duration-ms="8075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFileUpload -->
+        <test-method signature="validate_HTML_Table()[pri:0, instance:com.test.test_scenarios.TestScenario2@20f5281c]" started-at="2024-07-03T10:52:46 IST" name="validate_HTML_Table" description="Validate html table" finished-at="2024-07-03T10:52:47 IST" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_HTML_Table -->
+        <test-method signature="validated_Drag_Drop()[pri:0, instance:com.test.test_scenarios.TestScenario2@20f5281c]" started-at="2024-07-03T10:52:47 IST" name="validated_Drag_Drop" description="Validate drag and drop functionality" finished-at="2024-07-03T10:52:49 IST" duration-ms="2668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validated_Drag_Drop -->
+      </class> <!-- com.test.test_scenarios.TestScenario2 -->
+      <class name="com.test.test_scenarios.TestScenario1">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:39 IST" name="setUpSuite" finished-at="2024-07-03T10:51:45 IST" duration-ms="5694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:45 IST" name="setUpMethod" finished-at="2024-07-03T10:51:45 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setup_1()[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:45 IST" name="setup_1" finished-at="2024-07-03T10:51:45 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_1 -->
+        <test-method signature="toolTipDemo()[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:45 IST" name="toolTipDemo" description="Tool tip demo" finished-at="2024-07-03T10:51:52 IST" duration-ms="7217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toolTipDemo -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:52 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-03T10:51:52 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Insurance Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:52 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-03T10:51:52 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Agile Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:52 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-03T10:51:52 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bank Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:52 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-03T10:51:52 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Security Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:52 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-03T10:51:52 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Telecom Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:52 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-03T10:51:52 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Payment Gateway Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:52 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-03T10:51:52 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Tours]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:52 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-03T10:51:52 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SEO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validate_Login(java.lang.String,java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:52 IST" name="validate_Login" description="validate login functionality" data-provider="logindata" finished-at="2024-07-03T10:51:57 IST" duration-ms="4147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Login -->
+        <test-method signature="validate_Login(java.lang.String,java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:51:57 IST" name="validate_Login" description="validate login functionality" data-provider="logindata" finished-at="2024-07-03T10:52:05 IST" duration-ms="8232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Login -->
+        <test-method signature="validate_Login(java.lang.String,java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:52:05 IST" name="validate_Login" description="validate login functionality" data-provider="logindata" finished-at="2024-07-03T10:52:08 IST" duration-ms="3441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Login -->
+        <test-method signature="validate_Login(java.lang.String,java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:52:08 IST" name="validate_Login" description="validate login functionality" data-provider="logindata" finished-at="2024-07-03T10:52:16 IST" duration-ms="7718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test4@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Login -->
+        <test-method signature="validate_Login(java.lang.String,java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:52:16 IST" name="validate_Login" description="validate login functionality" data-provider="logindata" finished-at="2024-07-03T10:52:20 IST" duration-ms="3584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test5@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Login -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.test.test_scenarios.TestScenario1@7fbdb894]" started-at="2024-07-03T10:52:54 IST" name="tearDownSuite" finished-at="2024-07-03T10:52:55 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.test.test_scenarios.TestScenario1 -->
+    </test> <!-- DemoTests -->
+  </suite> <!-- DemoTestsSuite -->
+</testng-results>

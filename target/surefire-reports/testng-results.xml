@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="16" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-02T14:03:00 IST" name="DemoTestsSuite" finished-at="2024-07-02T14:03:42 IST" duration-ms="42530">
+    <groups>
+    </groups>
+    <test started-at="2024-07-02T14:03:00 IST" name="DemoTests" finished-at="2024-07-02T14:03:42 IST" duration-ms="42530">
+      <class name="com.test.test_scenarios.TestScenario2">
+        <test-method is-config="true" signature="setup_2()[pri:0, instance:com.test.test_scenarios.TestScenario2@29e495ff]" started-at="2024-07-02T14:03:18 IST" name="setup_2" finished-at="2024-07-02T14:03:18 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_2 -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.test.test_scenarios.TestScenario2@29e495ff]" started-at="2024-07-02T14:03:18 IST" name="setUpMethod" finished-at="2024-07-02T14:03:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="validateDatePicker()[pri:0, instance:com.test.test_scenarios.TestScenario2@29e495ff]" started-at="2024-07-02T14:03:18 IST" name="validateDatePicker" description="Validate date picker" finished-at="2024-07-02T14:03:31 IST" duration-ms="13625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDatePicker -->
+        <test-method signature="validateFileUpload()[pri:0, instance:com.test.test_scenarios.TestScenario2@29e495ff]" started-at="2024-07-02T14:03:31 IST" name="validateFileUpload" description="Validate file upload" finished-at="2024-07-02T14:03:39 IST" duration-ms="7670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFileUpload -->
+        <test-method signature="validate_HTML_Table()[pri:0, instance:com.test.test_scenarios.TestScenario2@29e495ff]" started-at="2024-07-02T14:03:39 IST" name="validate_HTML_Table" description="Validate html table" finished-at="2024-07-02T14:03:40 IST" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_HTML_Table -->
+        <test-method signature="validated_Drag_Drop()[pri:0, instance:com.test.test_scenarios.TestScenario2@29e495ff]" started-at="2024-07-02T14:03:40 IST" name="validated_Drag_Drop" description="Validate drag and drop functionality" finished-at="2024-07-02T14:03:42 IST" duration-ms="2626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validated_Drag_Drop -->
+      </class> <!-- com.test.test_scenarios.TestScenario2 -->
+      <class name="com.test.test_scenarios.TestScenario1">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:02:54 IST" name="setUpSuite" finished-at="2024-07-02T14:03:00 IST" duration-ms="5805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:00 IST" name="setUpMethod" finished-at="2024-07-02T14:03:00 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setup_1()[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:00 IST" name="setup_1" finished-at="2024-07-02T14:03:00 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_1 -->
+        <test-method signature="loginDemo()[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:00 IST" name="loginDemo" description="login demo" finished-at="2024-07-02T14:03:10 IST" duration-ms="9743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDemo -->
+        <test-method signature="toolTipDemo()[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:10 IST" name="toolTipDemo" description="Tool tip demo" finished-at="2024-07-02T14:03:12 IST" duration-ms="2612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toolTipDemo -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:12 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-02T14:03:17 IST" duration-ms="5035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Insurance Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:17 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-02T14:03:17 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Agile Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:17 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-02T14:03:17 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bank Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:17 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-02T14:03:17 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Security Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:17 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-02T14:03:18 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Telecom Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:18 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-02T14:03:18 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Payment Gateway Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:18 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-02T14:03:18 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Tours]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method signature="validateHomePageLikns(java.lang.String)[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:18 IST" name="validateHomePageLikns" description="Validate homepage links" data-provider="getLinkData" finished-at="2024-07-02T14:03:18 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SEO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLikns -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.test.test_scenarios.TestScenario1@79da8dc5]" started-at="2024-07-02T14:03:47 IST" name="tearDownSuite" finished-at="2024-07-02T14:03:48 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.test.test_scenarios.TestScenario1 -->
+    </test> <!-- DemoTests -->
+  </suite> <!-- DemoTestsSuite -->
+</testng-results>
