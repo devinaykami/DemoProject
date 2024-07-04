@@ -62,7 +62,7 @@ public class TestScenario1 extends BaseClass {
 
 		Assert.assertEquals(lp.getLoginMessage(), "Successfully Logged in...");
 
-		test.log(Status.INFO, "logged in successsfully");
+		test.log(Status.INFO, "login successsful");
 	}
 
 	@Test(description = "Tool tip demo")
@@ -71,7 +71,7 @@ public class TestScenario1 extends BaseClass {
 
 		tp.getToolTip();
 
-		test.log(Status.INFO, "Validated tooltip successfully");
+		test.log(Status.INFO, "tooltip validation completed");
 
 	}
 
