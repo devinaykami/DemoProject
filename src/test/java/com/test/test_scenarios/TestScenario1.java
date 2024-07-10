@@ -22,7 +22,7 @@ public class TestScenario1 extends BaseClass {
 	LoginPage lp;
 	ToolTipPage tp;
 
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void setup_1() {
 
 		// TODO Auto-generated constructor stub
@@ -37,7 +37,7 @@ public class TestScenario1 extends BaseClass {
 
 	}
 
-	@Test(dataProvider = "getLinkData", description = "Validate homepage links")
+	@Test(dataProvider = "getLinkData", description = "Validate homepage links", groups = { "smoke" })
 	@Description("Validated links from home page")
 	public void validateHomePageLikns(String linkName) throws InterruptedException {
 
@@ -51,8 +51,7 @@ public class TestScenario1 extends BaseClass {
 
 	}
 
-	
-	@Test(description = "validate login functionality", dataProvider = "logindata")
+	@Test(description = "validate login functionality", dataProvider = "logindata", groups = { "smoke" })
 	@Description("Verify login functionality")
 	public void validate_Login(String username, String pwd) throws InterruptedException {
 
@@ -65,7 +64,7 @@ public class TestScenario1 extends BaseClass {
 		test.log(Status.INFO, "login successsful");
 	}
 
-	@Test(description = "Tool tip demo")
+	@Test(description = "Tool tip demo", groups = { "regression" })
 	@Description("validate content of tooltip")
 	public void toolTipDemo() {
 

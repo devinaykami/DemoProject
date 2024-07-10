@@ -15,8 +15,7 @@ public class BaseClass {
 	protected ExtentReports extent;
 	protected ExtentTest test;
 
-	
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void setUpMethod() {
 
 		extent = ExtentManager.getInstance();
@@ -24,17 +23,16 @@ public class BaseClass {
 
 	}
 
-	@BeforeSuite
+	@BeforeSuite(alwaysRun = true)
 	public void setUpSuite() {
-		
-		
+
 		DriverManager.initializeDriver();
-		
+
 		// Create a new test in the report
-				
+
 	}
 
-	@AfterSuite
+	@AfterSuite(alwaysRun = true)
 	public void tearDownSuite() {
 
 		DriverManager.quitDriver();

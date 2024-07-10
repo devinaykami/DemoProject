@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="DemoTestsSuite">
 	<listeners>
-		
+
 		<listener class-name="com.test.utilities.RetryListener" />
-		
+
 		<listener class-name="io.qameta.allure.testng.AllureTestNg" />
+
+		<listener class-name="com.test.utilities.CustomTestListener" />
+
 	</listeners>
+
 	<test name="DemoTests">
 		<classes>
 

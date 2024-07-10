@@ -24,7 +24,7 @@ public class TestScenario2 extends BaseClass {
 	DragAndDropPage dd;
 	String absolutePath = Paths.get("./testdata/punch-camo-brochure.pdf").toAbsolutePath().toString();
 
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void setup_2() {
 
 		driver = DriverManager.getDriver();
@@ -34,7 +34,7 @@ public class TestScenario2 extends BaseClass {
 
 	}
 
-	@Test(description = "Validate html table")
+	@Test(description = "Validate html table", groups = { "smoke" })
 	@Description("Verify whether user is able to get data from html table")
 	public void validate_HTML_Table() {
 
@@ -49,7 +49,7 @@ public class TestScenario2 extends BaseClass {
 
 	}
 
-	@Test(description = "Validate file upload")
+	@Test(description = "Validate file upload", groups = { "regression" })
 	@Description("Verify whether user is able to upload a file")
 	public void validateFileUpload() throws InterruptedException {
 
@@ -58,7 +58,7 @@ public class TestScenario2 extends BaseClass {
 		test.log(Status.INFO, "File upload validation completed");
 	}
 
-	@Test(description = "Validate drag and drop functionality")
+	@Test(description = "Validate drag and drop functionality", groups = { "regression" })
 	@Description("Verify whether user is able to drag and drop")
 	public void validated_Drag_Drop() {
 
@@ -67,7 +67,7 @@ public class TestScenario2 extends BaseClass {
 		test.log(Status.INFO, "Drag and drop validated successfully");
 	}
 
-	@Test(description = "Validate date picker")
+	@Test(description = "Validate date picker", groups = { "regression" })
 	@Description("Verify whether user is able to select a date")
 	public void validateDatePicker() throws InterruptedException {
 

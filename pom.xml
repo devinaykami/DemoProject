@@ -59,6 +59,7 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>TestNG.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<groups>${testng.groups}</groups>
 				</configuration>
 			</plugin>
 

@@ -11,7 +11,7 @@ public class ExtentManager {
 
 	public static ExtentReports getInstance() {
 		if (extent == null) {
-			sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/extent-report.html");
+			sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/html-report/extent-report.html");
 			sparkReporter.config().setTheme(Theme.STANDARD);
 			sparkReporter.config().setDocumentTitle("Automation Test Report");
 			sparkReporter.config().setEncoding("utf-8");
